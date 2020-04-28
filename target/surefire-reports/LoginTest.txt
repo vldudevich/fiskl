@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: LoginTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 121.795 s <<< FAILURE! - in LoginTest
+Test008successEmailLogin(LoginTest)  Time elapsed: 11.646 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ggg-3.Dlink', ip: '192.168.1.41', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '9.0.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/vladislav/Downloads/..., autoAcceptAlerts: true, automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: iOS, platformVersion: 13.2, takesScreenshot: true, udid: A10793DB-7411-49FB-87AE-D05..., webStorageEnabled: false}
+Session ID: ac694b39-2512-4f11-b76f-4a0318d56257
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name='Continue']}
+	at LoginTest.Test008successEmailLogin(LoginTest.java:100)
+
+Test010successPasswordLogin(LoginTest)  Time elapsed: 16.382 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-ggg-3.Dlink', ip: '192.168.1.41', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '9.0.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/vladislav/Downloads/..., autoAcceptAlerts: true, automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: iOS, platformVersion: 13.2, takesScreenshot: true, udid: A10793DB-7411-49FB-87AE-D05..., webStorageEnabled: false}
+Session ID: ac694b39-2512-4f11-b76f-4a0318d56257
+*** Element info: {Using=xpath, value=//XCUIElementTypeButton[@name='Continue']}
+	at LoginTest.Test010successPasswordLogin(LoginTest.java:118)
+

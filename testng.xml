@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="2" parallel="tests" preserve-order="true" verbose="2">
+
+    <test name="IOS">
+        <parameter name="runAs" value="grid"/>
+        <parameter name="platform" value="ios"/>
+        <classes>
+            <class name="LoginTests.LoginTest">
+                <methods>
+                    <exclude name="TestFastAuth"/>
+                </methods>
+            </class>
+            
+        </classes>
+    </test>
+    <test name="Android">
+        <parameter name="runAs" value="grid"/>
+        <parameter name="platform" value="android"/>
+        <classes>
+            <class name="LoginTests.LoginTestAnd">
+                <methods>
+                    <exclude name="TestFastAuth"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
