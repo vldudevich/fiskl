@@ -1,1 +1,3 @@
-LoginTest.class
+LoginTests/LoginTestAnd.class
+LoginTests/GoogleLoginTest.class
+LoginTests/LoginTest.class

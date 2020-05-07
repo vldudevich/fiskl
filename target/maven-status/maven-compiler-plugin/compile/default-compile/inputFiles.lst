@@ -1,5 +1,10 @@
-/Users/vladislav/fiskl/src/main/java/pages/LoginPage.java
-/Users/vladislav/fiskl/src/main/java/pages/HomePage.java
-/Users/vladislav/fiskl/src/main/java/pages/PasswordPage.java
-/Users/vladislav/fiskl/src/main/java/base/BaseTest.java
-/Users/vladislav/fiskl/src/main/java/base/PageObject.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/pagesIOS/HomePageIOS.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/pagesAndroid/LoginPageAndroid.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/pagesIOS/LoginPageIOS.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/pagesAndroid/HomePageAndroid.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/pagesIOS/PasswordPageIOS.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/base/BaseTest.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/base/Strings.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/base/PageObject.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/base/BaseTestAndroid.java
+/Users/vladislav/Documents/autoTesting/fiskl/src/main/java/pagesAndroid/PasswordPageAndroid.java
